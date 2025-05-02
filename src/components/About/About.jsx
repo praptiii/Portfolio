@@ -1,0 +1,50 @@
+import React from 'react'
+import './About.css'
+import theme_pattern from '../../assets/theme_pattern.svg'
+import profile_img from '../../assets/resume image.jpg'
+
+const About = () => {
+  return (
+    <div id='about' className='about'>
+        <div className='about-title'>
+            <h1>About Me</h1>
+            <img src={theme_pattern} alt=""/>
+        </div>
+        <div className='about-sections'>
+            <div className='about-left'>
+                <img src={profile_img} alt=""/>
+            </div>
+            <div className='about-right'>
+                <div className='about-para'>
+                    <p>I’m Prapti Goswami, an IT graduate from VIT University along with an aspiring front-end developer, passionate about building innovative solutions at the intersection of technology, creativity, and user experience.</p>
+                    <p>With hands-on experience in web development and machine learning I’m driven to craft meaningful tech that solves real-world problems.</p>
+                </div>
+                <div className='about-skills'>
+                    <div className='about-skill'><p>HTML & CSS</p><hr style={{width: "50%"}} /></div>
+                    <div className='about-skill'><p>React JS</p><hr style={{width: "70%"}} /></div>
+                    <div className='about-skill'><p>JavaScript</p><hr style={{width: "60%"}} /></div>
+                    <div className='about-skill'><p>Angular JS</p><hr style={{width: "50%"}} /></div>
+                </div>
+            </div>
+        </div>
+        {/*<div className='about-achievements'>
+            <div className='about-achievement'>
+                <h1>10+</h1>
+                <p>TECH STACKS MASTERED</p>
+            </div>
+            <hr/>
+            <div className='about-achievement'>
+                <h1>5+</h1>
+                <p>PROJECTS BUILT</p>
+            </div>
+            <hr/>
+            <div className='about-achievement'>
+                <h1>∞</h1>
+                <p>PASSION TO LEARN</p>
+            </div>
+        </div>*/}
+    </div>
+  )
+}
+
+export default About
