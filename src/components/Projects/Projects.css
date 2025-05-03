@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 120px 170px;
 }
 .project-title{
     position: relative;
@@ -46,7 +46,7 @@
     padding: 30px 60px;
     font-size: 22px;
     font-weight: 500;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     transition: 0.6s;
     cursor: pointer;
 }

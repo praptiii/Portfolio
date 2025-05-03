@@ -20,10 +20,12 @@ const About = () => {
                     <p>With hands-on experience in web development and machine learning I’m driven to craft meaningful tech that solves real-world problems.</p>
                 </div>
                 <div className='about-skills'>
-                    <div className='about-skill'><p>HTML & CSS</p><hr style={{width: "50%"}} /></div>
+                    <div className='about-skill'><p>HTML & CSS</p><hr style={{width: "80%"}} /></div>
                     <div className='about-skill'><p>React JS</p><hr style={{width: "70%"}} /></div>
                     <div className='about-skill'><p>JavaScript</p><hr style={{width: "60%"}} /></div>
-                    <div className='about-skill'><p>Angular JS</p><hr style={{width: "50%"}} /></div>
+                    <div className='about-skill'><p>Java</p><hr style={{width: "50%"}} /></div>
+                    <div className='about-skill'><p>Python & ML</p><hr style={{width: "30%"}} /></div>
+                    <div className='about-skill'><p>SQL</p><hr style={{width: "50%"}} /></div>
                 </div>
             </div>
         </div>

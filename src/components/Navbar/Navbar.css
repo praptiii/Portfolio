@@ -4,6 +4,11 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.nav-logo {
+    width: 108px;
+    height: 57px;
+    object-fit: fill;
+}
 .nav-menu{
     display:flex;
     align-items: center;

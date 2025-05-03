@@ -3,6 +3,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-top: 150px;
+}
+.footer-logo {
+    width: 108px;
+    height: 57px;
+    object-fit: fill;
 }
 .footer-top{
     display: flex;

@@ -3,11 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 150px;
     margin: 80px 170px;
 }
 .achieve-title{
     position: relative;
+    margin: -50px;
 }
 .achieve-title h1{
     padding: 0px 30px;
